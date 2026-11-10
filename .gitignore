@@ -1,0 +1,5 @@
+# Project exclude paths
+/BulkyBookWeb/wwwroot/lib/bootstrap/dist/
+/BulkyBookWeb/wwwroot/lib/jquery/dist/
+/BulkyBookWeb/wwwroot/lib/jquery-validation/dist/
+/BulkyBookWeb/wwwroot/lib/jquery-validation-unobtrusive/dist/
