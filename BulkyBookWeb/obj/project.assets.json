@@ -1063,6 +1063,56 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "BulkyBook.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "BulkyBook.DataAccess": "1.0.0",
+          "BulkyBook.Models": "1.0.0",
+          "BulkyBook.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BulkyBook.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.Business.dll": {}
+        }
+      },
+      "BulkyBook.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "BulkyBook.Models": "1.0.0",
+          "BulkyBook.Utility": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.11"
+        },
+        "compile": {
+          "bin/placeholder/BulkyBook.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.DataAccess.dll": {}
+        }
+      },
+      "BulkyBook.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/BulkyBook.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.Models.dll": {}
+        }
+      },
+      "BulkyBook.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/BulkyBook.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.Utility.dll": {}
+        }
       }
     }
   },
@@ -3095,10 +3145,33 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BulkyBook.Business/1.0.0": {
+      "type": "project",
+      "path": "../BulkyBook.Business/BulkyBook.Business.csproj",
+      "msbuildProject": "../BulkyBook.Business/BulkyBook.Business.csproj"
+    },
+    "BulkyBook.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
+      "msbuildProject": "../BulkyBook.DataAccess/BulkyBook.DataAccess.csproj"
+    },
+    "BulkyBook.Models/1.0.0": {
+      "type": "project",
+      "path": "../BulkyBook.Models/BulkyBook.Models.csproj",
+      "msbuildProject": "../BulkyBook.Models/BulkyBook.Models.csproj"
+    },
+    "BulkyBook.Utility/1.0.0": {
+      "type": "project",
+      "path": "../BulkyBook.Utility/BulkyBook.Utility.csproj",
+      "msbuildProject": "../BulkyBook.Utility/BulkyBook.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "BulkyBook.Business >= 1.0.0",
+      "BulkyBook.DataAccess >= 1.0.0",
+      "BulkyBook.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.11"
     ]
@@ -3128,7 +3201,17 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/BulkyBook.Business.csproj": {
+              "projectPath": "/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/BulkyBook.Business.csproj"
+            },
+            "/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj": {
+              "projectPath": "/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj"
+            },
+            "/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj": {
+              "projectPath": "/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Models/BulkyBook.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

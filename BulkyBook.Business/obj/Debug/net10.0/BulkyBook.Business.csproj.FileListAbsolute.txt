@@ -1,0 +1,12 @@
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/bin/Debug/net10.0/BulkyBook.Business.deps.json
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/bin/Debug/net10.0/BulkyBook.Business.dll
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/bin/Debug/net10.0/BulkyBook.Business.pdb
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/obj/Debug/net10.0/BulkyBook.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/obj/Debug/net10.0/BulkyBook.Business.AssemblyInfoInputs.cache
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/obj/Debug/net10.0/BulkyBook.Business.AssemblyInfo.cs
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/obj/Debug/net10.0/BulkyBook.Business.csproj.CoreCompileInputs.cache
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/obj/Debug/net10.0/BulkyBook.Business.sourcelink.json
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/obj/Debug/net10.0/BulkyBook.Business.dll
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/obj/Debug/net10.0/refint/BulkyBook.Business.dll
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/obj/Debug/net10.0/BulkyBook.Business.pdb
+/Users/osmar.ramirez/RiderProjects/BulkyBook/BulkyBook.Business/obj/Debug/net10.0/ref/BulkyBook.Business.dll
