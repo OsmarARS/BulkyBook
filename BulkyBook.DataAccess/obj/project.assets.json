@@ -732,7 +732,10 @@
         },
         "runtime": {
           "bin/placeholder/BulkyBook.Models.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "BulkyBook.Utility/1.0.0": {
         "type": "project",
